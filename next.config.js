@@ -1,6 +1,7 @@
 module.exports = {
-  reactStrictMode: true,
   images: {
-    domains: ['uploads-ssl.webflow.com'],
+    loader: 'imgix',
+    domains: ['assets.vercel.com', 'dummyimage.com', "uploads-ssl.webflow.com", "tailwindui.com", "images.unsplash.com"],
+    disableStaticImages: false,
   },
 }

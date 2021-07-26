@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">contactScan</string>
+    <string name="title_activity_main">contactScan</string>
+    <string name="package_name">com.beta.contactscan</string>
+    <string name="custom_url_scheme">com.beta.contactscan</string>
+</resources>

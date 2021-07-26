@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Footer from './components/_footer.js'
+import Footer from './_footer.js'
 export default function Home() {
   return (
     <div className={styles.container}>

@@ -1,0 +1,9 @@
+{
+  "appId": "com.beta.contactscan",
+  "appName": "contactScan",
+  "webDir": "out",
+  "bundledWebRuntime": false,
+  "server": {
+    "url": "https://qr-contact-share.vercel.app/"
+  }
+}
