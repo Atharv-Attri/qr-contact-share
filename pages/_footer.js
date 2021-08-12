@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from 'next/link'
 export default function Footer() {
   return (
-    <footer>
+    <section>
       <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <span className="ml-3 text-xl">NAME</span>
         <p className="flex text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
@@ -39,6 +39,6 @@ export default function Footer() {
           </a>
         </span>
       </div>
-    </footer>
+    </section>
   );
 }
