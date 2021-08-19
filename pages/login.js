@@ -24,7 +24,7 @@ export default function login() {
                             </div>
                             <div className="mt-4">
                                 <label className="block text-sm font-medium leading-relaxed tracking-tighter text-blueGray-700">Password</label>
-                                <input type="password" name="" id="" placeholder="Your Password" minlength="6" className="w-full px-4 py-2 text-base text-black transition duration-500 ease-in-out transform border-transparent rounded-lg bg-blueGray-100 focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 " required="" />
+                                <input type="password" name="" id="" placeholder="Your Password" minLength="6" className="w-full px-4 py-2 text-base text-black transition duration-500 ease-in-out transform border-transparent rounded-lg bg-blueGray-100 focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 " required="" />
                             </div>
                             <div className="mt-2 text-right">
                                 <a href="#" className="text-sm font-semibold leading-relaxed text-blueGray-700 hover:text-black focus:text-blue-700">Forgot Password?</a>
@@ -38,7 +38,7 @@ export default function login() {
             <div className="p-2 mx-auto my-6 bg-white border rounded-lg shadow-xl ">
               <div className="flex-grow p-6 py-2 rounded-lg">
                 <div className="inline-flex items-center w-full ">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="mr-4 icon icon-tabler icon-tabler-alert-triangle" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="mr-4 icon icon-tabler icon-tabler-alert-triangle" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                     <circle cx="12" cy="12" r="9"></circle>
                     <line x1="12" y1="8" x2="12.01" y2="8"></line>
